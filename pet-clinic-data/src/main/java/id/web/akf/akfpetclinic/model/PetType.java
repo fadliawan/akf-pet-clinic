@@ -1,6 +1,6 @@
 package id.web.akf.akfpetclinic.model;
 
-public class PetType {
+public class PetType extends BaseEntity {
 
     private String name;
 
