@@ -1,11 +1,11 @@
 package id.web.akf.akfpetclinic.services.map;
 
 import id.web.akf.akfpetclinic.model.Vet;
-import id.web.akf.akfpetclinic.services.CrudService;
+import id.web.akf.akfpetclinic.services.VetService;
 
 import java.util.Set;
 
-public class VetServiceMap extends AbstractMapService<Vet, Long> implements CrudService<Vet, Long> {
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
 
     @Override
     public Set<Vet> findAll() {
